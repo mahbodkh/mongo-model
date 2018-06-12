@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController {
 
     @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @ResponseBody
     public ResponseBody addProduct() {
         return null;
     }
